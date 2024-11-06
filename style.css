@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    padding: 20px;
+}
+
+.app {
+    width: 100%;
+    background-color: white;
+    padding: 25px;
+    max-width: 500px;
+    margin: 40px auto 10px ;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.dogimage {
+    width: 100%;
+    max-width: 450px;
+    background-color: snow;
+    padding: 5px;
+}
+
+button {
+    background-color: red;
+    color: #fff;
+    border: none;
+    width: 50%;
+    padding: 18px 15px;
+    border-radius: 5px;
+    font-weight: 600;
+    margin: 30px auto;
+    display: block;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.dogimg {
+    width: 350px;
+    height: 350px;
+    margin: auto;
+    display: block;
+    padding: 10px;
+}
+
+@media screen and (max-width:768px) {
+    .dogimg {
+        width: 270px;
+        height:300px;  
+    }
+}
